@@ -27,6 +27,7 @@ int main(int argc, char** argv) {
     float rise1, rise2, rise3; //3 different levels of height as time goes
     int nYrBch; //number of years before ur home is beachfront property
     float eleRiv=860.0f;// Elevation of Riverside in Feet
+    
     rise1=rate*nYear1;
       rise2=rate*nYear2;
       rise3=rate*nYear3;
@@ -38,6 +39,7 @@ int main(int argc, char** argv) {
     cout<<"The ocean rose "<<rise3<< " millimiters in "<<nYear3<< " years."<<endl;
     cout<<"In "<<nYrBch<<" years, Riverside will have beachfront property."<<endl;
     cout<<"This rise equates to "<<nYrBch*rate/CNVMMM<<" meters."<<endl;
+    
     return 0;
 }
 
